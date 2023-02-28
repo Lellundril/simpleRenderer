@@ -6,8 +6,8 @@
 #include <sstream>
 #include "tgaimage.h"
 
-constexpr int WIDTH = 512;
-constexpr int HEIGHT = 512;
+constexpr int WIDTH = 1024;
+constexpr int HEIGHT = 1024;
 
 std::vector<std::string> split (std::string s, std::string delimiter) {
     size_t pos_start = 0, pos_end, delim_len = delimiter.length();
